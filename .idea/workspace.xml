@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8071a6fa-ce33-4755-a8fa-fd6128c5512d" name="Changes" comment="Initial commit" />
+    <list default="true" id="8071a6fa-ce33-4755-a8fa-fd6128c5512d" name="Changes" comment="almost done, git publish test">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,10 +25,27 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="main" />
+        <entry key="$PROJECT_DIR$/.." value="production" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Marco-03&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Marco-03/Portfolio-React.git&quot;,
+    &quot;accountId&quot;: &quot;b677e6c2-c081-480d-a2ad-eb0353f8b88f&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -39,11 +60,13 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.Debug Application.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.SpinningSphere.js.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;production&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/BalaurU/Desktop/study/portfolio_react/public/images&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/luchi/Desktop/study&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -52,8 +75,8 @@
     &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;npm.npm start.executor&quot;: &quot;Run&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.web.browsers&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.3.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.3.1.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -62,14 +85,14 @@
       <recent name="C:\Users\BalaurU\Desktop\study\portfolio_react\public\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\BalaurU\Desktop\study\portfolio_react" />
-      <recent name="C:\Users\BalaurU\Desktop\study\portfolio_react\public\images" />
-      <recent name="C:\Users\BalaurU\Desktop\study\portfolio_react\src\assets" />
+      <recent name="C:\Users\luchi\Desktop\study\portfolio_react\public\skills_pics" />
+      <recent name="C:\Users\luchi\Desktop\study\portfolio_react\public\projects_pics" />
+      <recent name="C:\Users\BalaurU\Desktop\study\portfolio_react\public\skills_pics" />
       <recent name="C:\Users\BalaurU\Desktop\study\portfolio_react\public" />
-      <recent name="C:\Users\BalaurU\Desktop\study\portfolio_react\src\components\images" />
+      <recent name="C:\Users\BalaurU\Desktop\study\portfolio_react" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Debug Application">
+  <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -79,7 +102,7 @@
       <scripts>
         <script value="start" />
       </scripts>
-      <node-interpreter value="project" />
+      <node-interpreter value="$APPLICATION_CONFIG_DIR$/node/versions/22.12.0/node" />
       <envs />
       <method v="2" />
     </configuration>
@@ -87,7 +110,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-WS-243.22562.112" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-WS-243.22562.222" />
       </set>
     </attachedChunks>
   </component>
@@ -106,6 +129,42 @@
       <workItem from="1734195344339" duration="5125000" />
       <workItem from="1734369514661" duration="4883000" />
       <workItem from="1734388632521" duration="3378000" />
+      <workItem from="1734392264920" duration="456000" />
+      <workItem from="1734392789728" duration="1351000" />
+      <workItem from="1734458598693" duration="11763000" />
+      <workItem from="1734617525051" duration="3308000" />
+      <workItem from="1734800570538" duration="5079000" />
+      <workItem from="1734892906980" duration="5475000" />
+      <workItem from="1734976340197" duration="4210000" />
+      <workItem from="1734980970167" duration="610000" />
+      <workItem from="1734997719075" duration="174000" />
+      <workItem from="1735237931326" duration="10989000" />
+      <workItem from="1735317104677" duration="7294000" />
+      <workItem from="1735324514400" duration="2000" />
+      <workItem from="1735324521380" duration="9000" />
+      <workItem from="1735782154892" duration="628000" />
+      <workItem from="1735783384854" duration="1000" />
+      <workItem from="1735912496449" duration="84000" />
+      <workItem from="1735912612931" duration="2000" />
+      <workItem from="1735919488158" duration="18000" />
+      <workItem from="1736089455678" duration="830000" />
+      <workItem from="1736093059630" duration="1378000" />
+      <workItem from="1736101252376" duration="2000" />
+      <workItem from="1736109171979" duration="4000" />
+      <workItem from="1736197979776" duration="24000" />
+      <workItem from="1736271047650" duration="6306000" />
+      <workItem from="1736288311416" duration="63000" />
+      <workItem from="1736288533246" duration="378000" />
+      <workItem from="1736458029885" duration="433000" />
+      <workItem from="1736458631313" duration="19000" />
+      <workItem from="1736458846243" duration="98000" />
+      <workItem from="1736528059574" duration="1000" />
+      <workItem from="1737768417753" duration="2000" />
+      <workItem from="1738419232147" duration="10337000" />
+      <workItem from="1738432029112" duration="979000" />
+      <workItem from="1738440677912" duration="311000" />
+      <workItem from="1739030983865" duration="18503000" />
+      <workItem from="1739126411310" duration="4118000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -115,14 +174,56 @@
       <option name="project" value="LOCAL" />
       <updated>1734391542477</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="almost done, git publish test">
+      <option name="closed" value="true" />
+      <created>1739131843083</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1739131843083</updated>
+    </task>
+    <task id="LOCAL-00003" summary="almost done, git publish test">
+      <option name="closed" value="true" />
+      <created>1739132260680</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1739132260680</updated>
+    </task>
+    <task id="LOCAL-00004" summary="almost done, git publish test">
+      <option name="closed" value="true" />
+      <created>1739132926222</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1739132926222</updated>
+    </task>
+    <task id="LOCAL-00005" summary="almost done, git publish test">
+      <option name="closed" value="true" />
+      <created>1739133004307</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1739133004307</updated>
+    </task>
+    <task id="LOCAL-00006" summary="almost done, git publish test">
+      <option name="closed" value="true" />
+      <created>1739133114725</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1739133114725</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="release beta" />
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="almost done, git publish test" />
+    <option name="LAST_COMMIT_MESSAGE" value="almost done, git publish test" />
   </component>
 </project>
