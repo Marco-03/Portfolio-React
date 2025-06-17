@@ -103,7 +103,7 @@ const Contact = () => {
                     {/* Right Column */}
                     <div>
                         <label htmlFor="message" className="block text-gray-400 mb-2">
-                            Your Message
+                            Enter Your Message
                         </label>
                         <textarea
                             id="message"
