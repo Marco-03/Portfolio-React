@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bca7cb38.css",
+    "main.js": "/static/js/main.e5b79d66.js",
+    "static/js/488.7947bcc8.chunk.js": "/static/js/488.7947bcc8.chunk.js",
+    "static/media/postgresql.png": "/static/media/postgresql.e6e29eb1fc2569db1b8c.png",
+    "static/media/kubernetes.png": "/static/media/kubernetes.6f89ce4ddc6c89b6aba8.png",
+    "static/media/background2.jpg": "/static/media/background2.ebf937224f4f99869b36.jpg",
+    "static/media/scikit.png": "/static/media/scikit.b475a721594f9fd32863.png",
+    "static/media/python-logo.png": "/static/media/python-logo.f99f6539e6b574008446.png",
+    "static/media/git.png": "/static/media/git.7c58eb7a928786a2acc4.png",
+    "static/media/dart.png": "/static/media/dart.334db3726fc207f533a7.png",
+    "static/media/nodejs.png": "/static/media/nodejs.07d152a8a036951b8d14.png",
+    "static/media/office.png": "/static/media/office.0e65b75239a341018a3b.png",
+    "static/media/adobe.png": "/static/media/adobe.3a0824fc7814d482a19c.png",
+    "index.html": "/index.html",
+    "main.bca7cb38.css.map": "/static/css/main.bca7cb38.css.map",
+    "main.e5b79d66.js.map": "/static/js/main.e5b79d66.js.map",
+    "488.7947bcc8.chunk.js.map": "/static/js/488.7947bcc8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bca7cb38.css",
+    "static/js/main.e5b79d66.js"
+  ]
+}
